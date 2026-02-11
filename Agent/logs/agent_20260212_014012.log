@@ -1,0 +1,3 @@
+2026-02-12 01:40:13,450 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有1条消息传递给模型
+2026-02-12 01:40:13,450 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型HumanMessage 最近一条消息 这是我们的第几轮对话
+2026-02-12 01:40:13,450 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x000001E8F2269F80>, previous=None)

@@ -1,0 +1,5 @@
+2026-02-11 22:12:39,234 - agent - ERROR - file_handler.py:38 - 获取[文件列表]路径不存在：data不是文件夹
+2026-02-11 22:12:39,234 - agent - ERROR - file_handler.py:10 - [md5计算]文件不存在：txt
+2026-02-11 22:12:39,235 - agent - WARNING - vector_store.py:73 - 加载知识库 都没读到任何东西 文件 txt 为空，跳过
+2026-02-11 22:12:39,235 - agent - ERROR - file_handler.py:10 - [md5计算]文件不存在：pdf
+2026-02-11 22:12:39,235 - agent - WARNING - vector_store.py:73 - 加载知识库 都没读到任何东西 文件 pdf 为空，跳过

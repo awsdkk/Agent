@@ -1,0 +1,27 @@
+2026-02-12 01:39:00,681 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有1条消息传递给模型
+2026-02-12 01:39:00,681 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型HumanMessage 最近一条消息 扫地机器人在我的地区下如何保养
+2026-02-12 01:39:00,681 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000023F34EB9F80>, previous=None)
+2026-02-12 01:39:04,225 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: get_user_location
+2026-02-12 01:39:04,226 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {}
+2026-02-12 01:39:04,226 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:39:04,227 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有3条消息传递给模型
+2026-02-12 01:39:04,227 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 上海
+2026-02-12 01:39:04,227 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000023F34EB9F80>, previous=None)
+2026-02-12 01:39:08,018 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: get_weather
+2026-02-12 01:39:08,018 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {'city': '上海'}
+2026-02-12 01:39:08,020 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:39:08,021 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有5条消息传递给模型
+2026-02-12 01:39:08,022 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 城市上海的天气是晴朗 温度26° 空气湿度49% 南风一级 AQI21
+2026-02-12 01:39:08,022 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000023F34EB9F80>, previous=None)
+2026-02-12 01:39:12,744 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: rag_summarize
+2026-02-12 01:39:12,744 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {'query': '扫地机器人在湿度49%、温度26度、晴朗天气下的保养方法'}
+2026-02-12 01:39:14,669 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:39:14,669 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有7条消息传递给模型
+2026-02-12 01:39:14,669 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 参考资料中未提及扫地机器人在湿度49%、温度26度、晴朗天气下的具体保养方法。
+2026-02-12 01:39:14,669 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000023F34EB9F80>, previous=None)
+2026-02-12 01:39:20,106 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: rag_summarize
+2026-02-12 01:39:20,106 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {'query': '扫地机器人日常保养维护方法'}
+2026-02-12 01:39:22,814 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:39:22,814 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有9条消息传递给模型
+2026-02-12 01:39:22,814 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 定期清理滚刷和边刷上的缠绕物，清空尘盒并清洗滤网，检查传感器是否被灰尘遮挡，保持充电座周围清洁，避免在潮湿或有水区域使用，长时间不用时应断电存放。
+2026-02-12 01:39:22,814 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000023F34EB9F80>, previous=None)

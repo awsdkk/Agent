@@ -1,0 +1,1 @@
+2026-02-11 02:16:45,007 - agent - ERROR - prompt_loader.py:28 - 读取rag_summarize_prompt_path失败: [Errno 2] No such file or directory: 'D:\\放假学习\\agent开发\\Agent智能体\\prompts/rag_summarize_prompt.txt'

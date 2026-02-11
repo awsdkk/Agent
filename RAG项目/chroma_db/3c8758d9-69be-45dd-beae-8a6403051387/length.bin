@@ -1,0 +1,1 @@
+invalid type: string "print(re.sub(r\"垃圾\", \"**\", string))  # 输出 这个产品真**\r\n\r\n## 十八、高级数据结构\r\n1.  集合（Set）的高级操作\r\n    - 交集：s1 & s2 或 s1.intersection(s2)\r\n    - 并集：s1 | s2 或 s1.union(s2)\r\n    - 差集：s1 - s2 或 s1.difference(s2)\r\n    - 对称差集：s1 ^ s2 或 s1.symmetric_difference(s2)\r\n    - 示例：\r\n����

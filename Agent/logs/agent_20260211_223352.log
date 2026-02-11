@@ -1,0 +1,13 @@
+2026-02-11 22:33:52,701 - agent - INFO - file_handler.py:44 - 获取[文件列表]文件：external
+2026-02-11 22:33:52,701 - agent - INFO - file_handler.py:44 - 获取[文件列表]文件：扫地机器人100问.pdf
+2026-02-11 22:33:52,702 - agent - INFO - file_handler.py:44 - 获取[文件列表]文件：扫地机器人100问2.txt
+2026-02-11 22:33:52,702 - agent - INFO - file_handler.py:44 - 获取[文件列表]文件：扫拖一体机器人100问.txt
+2026-02-11 22:33:52,702 - agent - INFO - file_handler.py:44 - 获取[文件列表]文件：故障排除.txt
+2026-02-11 22:33:52,702 - agent - INFO - file_handler.py:44 - 获取[文件列表]文件：维护保养.txt
+2026-02-11 22:33:52,702 - agent - INFO - file_handler.py:44 - 获取[文件列表]文件：选购指南.txt
+2026-02-11 22:33:52,703 - agent - INFO - vector_store.py:67 - 加载知识库 文件 D:\放假学习\agent开发\Agent智能体\data\扫地机器人100问.pdf 已存在，跳过
+2026-02-11 22:33:52,704 - agent - INFO - vector_store.py:67 - 加载知识库 文件 D:\放假学习\agent开发\Agent智能体\data\扫地机器人100问2.txt 已存在，跳过
+2026-02-11 22:33:52,704 - agent - INFO - vector_store.py:67 - 加载知识库 文件 D:\放假学习\agent开发\Agent智能体\data\扫拖一体机器人100问.txt 已存在，跳过
+2026-02-11 22:33:52,704 - agent - INFO - vector_store.py:67 - 加载知识库 文件 D:\放假学习\agent开发\Agent智能体\data\故障排除.txt 已存在，跳过
+2026-02-11 22:33:52,705 - agent - INFO - vector_store.py:67 - 加载知识库 文件 D:\放假学习\agent开发\Agent智能体\data\维护保养.txt 已存在，跳过
+2026-02-11 22:33:52,705 - agent - INFO - vector_store.py:67 - 加载知识库 文件 D:\放假学习\agent开发\Agent智能体\data\选购指南.txt 已存在，跳过

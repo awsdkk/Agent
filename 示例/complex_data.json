@@ -1,0 +1,24 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "笔记本电脑",
+      "specs": {
+        "cpu": "Intel i7",
+        "ram": "16GB",
+        "storage": "512GB SSD"
+      },
+      "price": 8999,
+      "reviews": [
+        {
+          "rating": 5,
+          "comment": "很好用"
+        },
+        {
+          "rating": 4,
+          "comment": "性能不错"
+        }
+      ]
+    }
+  ]
+}

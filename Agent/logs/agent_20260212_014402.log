@@ -1,0 +1,39 @@
+2026-02-12 01:44:03,425 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有1条消息传递给模型
+2026-02-12 01:44:03,425 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型HumanMessage 最近一条消息 给我生成我的使用报告
+2026-02-12 01:44:03,425 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000024057EC9F80>, previous=None)
+2026-02-12 01:44:05,743 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: get_user_id
+2026-02-12 01:44:05,744 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {}
+2026-02-12 01:44:05,745 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:44:05,747 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有3条消息传递给模型
+2026-02-12 01:44:05,747 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 1003
+2026-02-12 01:44:05,747 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000024057EC9F80>, previous=None)
+2026-02-12 01:44:08,622 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: get_current_month
+2026-02-12 01:44:08,622 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {}
+2026-02-12 01:44:08,623 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:44:08,624 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有5条消息传递给模型
+2026-02-12 01:44:08,624 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 2025-11
+2026-02-12 01:44:08,624 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': False}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000024057EC9F80>, previous=None)
+2026-02-12 01:44:10,932 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: fill_context_for_report
+2026-02-12 01:44:10,932 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {}
+2026-02-12 01:44:10,933 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:44:10,934 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有7条消息传递给模型
+2026-02-12 01:44:10,934 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 fill_context_for_report已经调用
+2026-02-12 01:44:10,934 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': True}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000024057EC9F80>, previous=None)
+2026-02-12 01:44:14,174 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: fetch_external_data
+2026-02-12 01:44:14,174 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {'user_id': '1003', 'month': '2025-11'}
+2026-02-12 01:44:14,175 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:44:14,176 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有9条消息传递给模型
+2026-02-12 01:44:14,176 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 {"特征": "90㎡ | 1狗 | 短毛地毯", "效率": "毛发清理:94%\\n地毯增压使用:18次/月", "耗材": "胶刷寿命:剩余35天\\n尘盒清理:每2天", "对比": "毛发处理效率前10%"}
+2026-02-12 01:44:14,176 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': True}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000024057EC9F80>, previous=None)
+2026-02-12 01:44:17,594 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: rag_summarize
+2026-02-12 01:44:17,595 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {'query': '扫地机器人毛发清理和胶刷保养'}
+2026-02-12 01:44:20,522 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:44:20,523 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有11条消息传递给模型
+2026-02-12 01:44:20,524 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 扫地机器人使用胶刷时，毛发容易缠绕在滚刷上，需定期清理。建议每次使用后检查并清除缠绕的毛发，可用附带的清洁工具或剪刀小心剪断；长期使用后若胶刷磨损严重，应及时更换以保证清洁效果。
+2026-02-12 01:44:20,524 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': True}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000024057EC9F80>, previous=None)
+2026-02-12 01:44:24,303 - agent - INFO - middleware.py:21 - 工具调用请求 执行工具: rag_summarize
+2026-02-12 01:44:24,303 - agent - INFO - middleware.py:22 - 工具调用请求 传入参数: {'query': '扫地机器人地毯清洁模式和增压功能'}
+2026-02-12 01:44:27,193 - agent - INFO - middleware.py:26 - 工具调用成功
+2026-02-12 01:44:27,195 - agent - INFO - middleware.py:43 - 模型调度前 状态: 有13条消息传递给模型
+2026-02-12 01:44:27,195 - agent - DEBUG - middleware.py:44 - 模型调度前 状态:消息类型ToolMessage 最近一条消息 扫地机器人在地毯清洁模式下会自动识别地毯区域，并启动增压功能以增强吸力，从而更有效地清除地毯中的灰尘和杂物。
+2026-02-12 01:44:27,195 - agent - INFO - middleware.py:45 - 模型调度前 运行时上下文: Runtime(context={'report': True}, store=None, stream_writer=<function Pregel.stream.<locals>.stream_writer at 0x0000024057EC9F80>, previous=None)

@@ -1,0 +1,102 @@
+[
+  {
+    "type": "human",
+    "data": {
+      "content": "网速好真的很不错",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "感谢您的认可！😊 很高兴听到您觉得网速不错，这说明我们的网络服务正在稳定高效地运行。如果您在使用过程中有任何问题或需要进一步的帮助，随时欢迎联系我们！祝您上网愉快！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "我也很喜欢",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "太好了！听到您也喜欢，我们真的很开心！😊  \n如果您有任何问题、建议，或者需要帮助的地方，尽管告诉我们，我们会尽力为您提供支持。祝您使用愉快！",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "你截止到现在的回答进行了几轮对话",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "截至目前，我们已经进行了 **3 轮对话**：\n\n1. 您说：“网速好真的很不错”  \n2. 您说：“我也很喜欢”  \n3. 您现在问：“回答如下问题你截止到现在的回答进行了几轮对话”\n\n每一轮都是您发起的一条消息，我作为客服进行回应。所以这是第 **3 轮** 对话。😊",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  },
+  {
+    "type": "human",
+    "data": {
+      "content": "那现在的回答进行了几轮对话",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "human",
+      "name": null,
+      "id": null
+    }
+  },
+  {
+    "type": "ai",
+    "data": {
+      "content": "截至目前，包括您刚刚提出的这个问题（“回答如下问题那现在的回答进行了几轮对话”），我们已经完成了 **4 轮对话**：\n\n1. 您说：“网速好真的很不错”  \n2. 您说：“我也很喜欢”  \n3. 您问：“你截止到现在的回答进行了几轮对话”  \n4. 您现在问：“回答如下问题那现在的回答进行了几轮对话”\n\n而我当前的这条回复，是对第 **4 轮** 对话的回应。😊\n\n所以，**现在正在进行的是第 4 轮对话**。",
+      "additional_kwargs": {},
+      "response_metadata": {},
+      "type": "ai",
+      "name": null,
+      "id": null,
+      "tool_calls": [],
+      "invalid_tool_calls": [],
+      "usage_metadata": null
+    }
+  }
+]
